@@ -1,0 +1,32 @@
+/* traslacion izq-der */
+/* .container {
+    position: absolute;
+    left: -500px;
+    top: 30%;
+    width: 500px;
+    height: 500px;
+    transition: left 2s ease;
+}
+
+.container.active {
+    left: calc(50% - 250px);
+} */
+
+/* Aparece y desaparece */
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    /* Inicialmente oculto */
+    transition: opacity 0.5s ease;
+    /* Transición suave de medio segundo en la opacidad */
+}
+
+.container.active {
+    opacity: 1;
+    /* Mostrar lentamente */
+}

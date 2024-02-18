@@ -1,0 +1,20 @@
+{
+  "gradients": [
+    {
+      "name": "Sunset",
+      "colors": ["#ff7e5f", "#ffffff"]
+    },
+    {
+      "name": "Ocean",
+      "colors": ["#00cdff", "#ffffff"]
+    },
+    {
+      "name": "Forest",
+      "colors": ["#2ecc71", "#ffffff"]
+    },
+    {
+      "name": "Golden",
+      "colors": ["#ffd700", "#ffffff"]
+    }
+  ]
+}
