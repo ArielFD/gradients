@@ -4,6 +4,7 @@ import GradientGrid from "./GradientGrid";
 import gradientsData from "/collection.json";
 
 export default function Navbar({
+  changeName,
   changeGradient,
   backgroundGradient,
   gradientDirection,
@@ -51,6 +52,7 @@ export default function Navbar({
     setSelectedGradient(
       `linear-gradient(to bottom, ${gradient.colors.join(", ")})`
     );
+    changeName(gradient.name);
     setVisibleList(false);
   };
 

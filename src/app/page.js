@@ -5,6 +5,7 @@ import collection from "/collection.json";
 import React, { useState, useEffect } from "react";
 
 export default function Home() {
+  const [nameGradient, setNameGradient] = useState("");
   const [backgroundGradient, setBackgroundGradient] = useState("");
   const [currentIndexBackground, setCurrentIndexBackground] = useState(0);
   const [gradientDirection, setGradientDirection] = useState("to bottom");
@@ -20,6 +21,7 @@ export default function Home() {
     )})`;
     setCurrentIndexBackground(currentBackground);
     setBackgroundGradient(gradientString);
+    setNameGradient(randomGradient.name);
   };
 
   // Change gradient onMounted
@@ -32,6 +34,10 @@ export default function Home() {
     setGradientDirection(directions);
   };
 
+  const changeName=(name)=>{
+    setNameGradient(name);
+  }
+
   const handleNext = () => {
     const nextIndex =
       (currentIndexBackground + 1) % collection.gradients.length;
@@ -42,6 +48,7 @@ export default function Home() {
       ", "
     )})`;
     setBackgroundGradient(gradientString);
+    setNameGradient(nextGradient.name);
   };
 
   const handlePrevius = () => {
@@ -55,6 +62,7 @@ export default function Home() {
       ", "
     )})`;
     setBackgroundGradient(gradientString);
+    setNameGradient(previusGradient.name);
   };
 
   return (
@@ -65,12 +73,14 @@ export default function Home() {
       className="relative min-h-screen flex flex-col items-center justify-center gap-2 font-sans"
     >
       <Navbar
+        changeName={changeName}
         changeGradient={changeGradient}
         backgroundGradient={backgroundGradient}
         gradientDirection={gradientDirection}
       />
       <h1 className="absolute top-12 font-bold text-slate-50">
-        {collection.gradients[currentIndexBackground].name}
+        {/* {collection.gradients[currentIndexBackground].name} */}
+        {nameGradient}
       </h1>
       <div className="flex flex-row w-full justify-between px-10">
         <button onClick={handlePrevius} className="">
