@@ -11,13 +11,13 @@ export const metadata = {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/public/assets/gradientCollection.png",
-        href: "/public/assets/gradientCollection.png",
+        url: "/assets/gradientCollection.png",
+        href: "/assets/gradientCollection.png",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/public/assets/gradientCollection.png",
-        href: "/public/assets/gradientCollection.png",
+        url: "/assets/gradientCollection.png",
+        href: "/assets/gradientCollection.png",
       },
     ],
   },
