@@ -1,5 +1,5 @@
 /* traslacion izq-der */
-/* .container {
+/* .container2 {
     position: absolute;
     left: -500px;
     top: 30%;
@@ -8,9 +8,22 @@
     transition: left 2s ease;
 }
 
-.container.active {
+.container2.active {
     left: calc(50% - 250px);
 } */
+
+.container2 {
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    width: 100%;
+    /* height: 100%; */
+    transition: left 1s ease;
+}
+
+.container2.active {
+    left: calc(50% - 50%);
+}
 
 /* Aparece y desaparece */
 .container {
@@ -18,8 +31,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
+    /* width: 500px;
+    height: 200px;
+    padding: 35px; */
     opacity: 0;
     /* Inicialmente oculto */
     transition: opacity 0.5s ease;

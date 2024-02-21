@@ -1,20 +1,304 @@
 {
   "gradients": [
     {
-      "name": "Sunset",
-      "colors": ["#ff7e5f", "#ffffff"]
+      "name": "Aurora Borealis",
+      "colors": ["#0f0c29", "#302b63", "#24243e"]
     },
     {
-      "name": "Ocean",
-      "colors": ["#00cdff", "#ffffff"]
+      "name": "Candy Floss",
+      "colors": ["#ff6e7f", "#bfe9ff", "#ffe29f"]
     },
     {
-      "name": "Forest",
-      "colors": ["#2ecc71", "#ffffff"]
+      "name": "Galactic Glow",
+      "colors": ["#23074d", "#cc5333", "#daae51"]
     },
     {
-      "name": "Golden",
-      "colors": ["#ffd700", "#ffffff"]
+      "name": "Neon Nights",
+      "colors": ["#ff758c", "#ff7eb3", "#da7ff7"]
+    },
+    {
+      "name": "Opal Ocean",
+      "colors": ["#007991", "#78ffd6", "#ffffff"]
+    },
+    {
+      "name": "Raspberry Ripple",
+      "colors": ["#b20000", "#c70039", "#ff5733"]
+    },
+    {
+      "name": "Serenity",
+      "colors": ["#3a7bd5", "#3a6073", "#eb3349"]
+    },
+    {
+      "name": "Twilight Tango",
+      "colors": ["#1e2ad2", "#ff512f", "#dd2476"]
+    },
+    {
+      "name": "Wildfire",
+      "colors": ["#ff416c", "#ff4b2b", "#ff632b"]
+    },
+    {
+      "name": "Zephyr",
+      "colors": ["#8e9eab", "#eef2f3", "#a8c0ff"]
+    },
+    {
+      "name": "Midnight Mirage",
+      "colors": ["#2b5876", "#4e4376", "#ff5f6d"]
+    },
+    {
+      "name": "Electric Elixir",
+      "colors": ["#b3ffab", "#12fff7", "#0078ff"]
+    },
+    {
+      "name": "Moonlit Meadow",
+      "colors": ["#215f00", "#e4e4d9", "#9fe5c6"]
+    },
+    {
+      "name": "Tropical Twilight",
+      "colors": ["#ff6e7f", "#bfe9ff", "#8cfffa"]
+    },
+    {
+      "name": "Silver Sands",
+      "colors": ["#e6dada", "#274046", "#9bc5c3"]
+    },
+    {
+      "name": "Golden Galaxy",
+      "colors": ["#1f4037", "#99f2c8", "#f0ca4d"]
+    },
+    {
+      "name": "Scarlet Skyline",
+      "colors": ["#f857a6", "#ff5858", "#ffca3a"]
+    },
+    {
+      "name": "Emerald Enchantment",
+      "colors": ["#84fab0", "#8fd3f4", "#00c6fb"]
+    },
+    {
+      "name": "Mystic Mist",
+      "colors": ["#403b4a", "#e7e9bb", "#f2bac9"]
+    },
+    {
+      "name": "Rainbow Rhapsody",
+      "colors": ["#ff3cac", "#784ba0", "#2b86c5", "#4e54c8", "#5f72be"]
+    },
+    {
+      "name": "Lemon Lime",
+      "colors": ["#bfff00", "#fff44f", "#ffffff"]
+    },
+    {
+      "name": "Chocolate Delight",
+      "colors": ["#d2691e", "#8b4513", "#5f9ea0"]
+    },
+    {
+      "name": "Oceanic Opulence",
+      "colors": ["#1d2b64", "#f8cdda", "#fef9d7"]
+    },
+    {
+      "name": "Sunset Spectacle",
+      "colors": ["#ff6e7f", "#bfe9ff", "#faaca8"]
+    },
+    {
+      "name": "Amethyst Aurora",
+      "colors": ["#9d50bb", "#6e48aa", "#6e48aa", "#b83b5e"]
+    },
+    {
+      "name": "Emerald Essence",
+      "colors": ["#1a2a6c", "#b21f1f", "#fdbb2d", "#b2d863"]
+    },
+    {
+      "name": "Cotton Candy Clouds",
+      "colors": ["#a8c0ff", "#eaafc8", "#fdc7d7"]
+    },
+    {
+      "name": "Sapphire Seas",
+      "colors": ["#3a7bd5", "#00d2ff", "#6dd5ed"]
+    },
+    {
+      "name": "Peachy Paradise",
+      "colors": ["#ffe259", "#ffa751", "#ff704d"]
+    },
+    {
+      "name": "Lavender Luxe",
+      "colors": ["#6441a5", "#2a0845", "#00ffb8"]
+    },
+    {
+      "name": "Rainbow Riot",
+      "colors": ["#ff3e03", "#ffc837", "#00b3e6"]
+    },
+    {
+      "name": "Tropical Tundra",
+      "colors": ["#bdc3c7", "#2c3e50", "#fd746c"]
+    },
+    {
+      "name": "Sunrise Symphony",
+      "colors": ["#ff512f", "#dd2476", "#ff7b00"]
+    },
+    {
+      "name": "Mystic Moonlight",
+      "colors": ["#403b4a", "#e7e9bb", "#f2bac9"]
+    },
+    {
+      "name": "Peacock Plume",
+      "colors": ["#0575e6", "#021b79", "#021b79"]
+    },
+    {
+      "name": "Golden Glaze",
+      "colors": ["#ffb347", "#ffcc33", "#ffcc33"]
+    },
+    {
+      "name": "Berry Blast",
+      "colors": ["#f83600", "#f9d423", "#86e3ce"]
+    },
+    {
+      "name": "Frosty Forest",
+      "colors": ["#0b486b", "#f56217", "#c84e89"]
+    },
+    {
+      "name": "Candy Coated",
+      "colors": ["#85ffbd", "#fffb7d", "#ff2e63"]
+    },
+    {
+      "name": "Tangerine Tango",
+      "colors": ["#ff9966", "#ff5e62", "#ff9980"]
+    },
+    {
+      "name": "Lunar Lagoon",
+      "colors": ["#00d2ff", "#928dab", "#1da1f2"]
+    },
+    {
+      "name": "Mango Madness",
+      "colors": ["#ff7e5f", "#feb47b", "#ffcf49"]
+    },
+    {
+      "name": "Mystic Mosaic",
+      "colors": ["#493240", "#ff6e7f", "#7b4397", "#dc2430"]
+    },
+    {
+      "name": "Garnet Glow",
+      "colors": ["#e65c00", "#f9d423", "#ff4e50"]
+    },
+    {
+      "name": "Cosmic Carnival",
+      "colors": ["#ff6e7f", "#bfe9ff", "#f9d423"]
+    },
+    {
+      "name": "Peppermint Paradise",
+      "colors": ["#00b4db", "#0083b0", "#00b4db"]
+    },
+    {
+      "name": "Sunset Serenade",
+      "colors": ["#f857a6", "#ff5858", "#ffca3a"]
+    },
+    {
+      "name": "Neon Nirvana",
+      "colors": ["#00ff88", "#00fff7", "#00bfff", "#ff00ff"]
+    },
+    {
+      "name": "Crimson Cascade",
+      "colors": ["#642b73", "#c6426e", "#ff512f"]
+    },
+    {
+      "name": "Tranquil Tides",
+      "colors": ["#3a7bd5", "#3a6073", "#1a1a2e"]
+    },
+    {
+      "name": "Lemon Lime Delight",
+      "colors": ["#bfff00", "#32cd32", "#ffffff"]
+    },
+    {
+      "name": "Rainbow Radiance",
+      "colors": ["#8e2de2", "#4a00e0", "#00d4ff", "#ffcd00", "#ff4e50"]
+    },
+    {
+      "name": "Ocean Opal",
+      "colors": ["#b8e994", "#a5b1c2", "#74b9ff"]
+    },
+    {
+      "name": "Midnight Marauder",
+      "colors": ["#24243e", "#302b63", "#0f0c29"]
+    },
+    {
+      "name": "Emerald Enigma",
+      "colors": ["#52c234", "#061700", "#061700"]
+    },
+    {
+      "name": "Neon Nectar",
+      "colors": ["#ff6ec4", "#7873f5", "#3e8ef7"]
+    },
+    {
+      "name": "Saffron Sunrise",
+      "colors": ["#ff9642", "#ffae42", "#fffc42"]
+    },
+    {
+      "name": "Cosmic Candy",
+      "colors": ["#ff6e7f", "#bfe9ff", "#fdc7d7"]
+    },
+    {
+      "name": "Sapphire Symphony",
+      "colors": ["#3a7bd5", "#3a6073", "#4e4376"]
+    },
+    {
+      "name": "Cherry Blossom",
+      "colors": ["#f85032", "#e73827", "#ff0080"]
+    },
+    {
+      "name": "Tranquil Twilight",
+      "colors": ["#fc00ff", "#00dbde", "#00c3ff"]
+    },
+    {
+      "name": "Tropical Tempest",
+      "colors": ["#007991", "#78ffd6", "#ffffb3"]
+    },
+    {
+      "name": "Crimson Cascade",
+      "colors": ["#e93e36", "#d62d20", "#ff512f"]
+    },
+    {
+      "name": "Mango Mirage",
+      "colors": ["#42275a", "#734b6d", "#42275a"]
+    },
+    {
+      "name": "Berry Burst",
+      "colors": ["#00f5a0", "#00d9f5", "#00b5f5", "#7e00f5", "#cf00f5"]
+    },
+    {
+      "name": "Pumpkin Patch",
+      "colors": ["#ff6e7f", "#bfe9ff", "#fec7d7"]
+    },
+    {
+      "name": "Autumn Aurora",
+      "colors": ["#ee0979", "#ff6a00", "#ffeb3b"]
+    },
+    {
+      "name": "Frosty Forest",
+      "colors": ["#0b486b", "#f56217", "#0b486b"]
+    },
+    {
+      "name": "Lunar Lullaby",
+      "colors": ["#8e9eab", "#eef2f3", "#ffffff"]
+    },
+    {
+      "name": "Emerald Enchantment",
+      "colors": ["#84fab0", "#8fd3f4", "#00c6fb"]
+    },
+    {
+      "name": "Midnight Mosaic",
+      "colors": ["#2c3e50", "#4ca1af", "#c4e0e5", "#5b8c5a"]
+    },
+    {
+      "name": "Cherry Cheesecake",
+      "colors": ["#ffb199", "#ff0844", "#ffb199"]
+    },
+    {
+      "name": "Aurora Australis",
+      "colors": ["#1488cc", "#2b32b2", "#1488cc"]
+    },
+    {
+      "name": "Minty Magic",
+      "colors": ["#32cd32", "#50c878", "#ffffff"]
+    },
+    {
+      "name": "Raspberry Rhapsody",
+      "colors": ["#ff4b1f", "#ff9068", "#ff4b1f"]
     }
   ]
 }

@@ -69,7 +69,7 @@ export default function Home() {
         backgroundGradient={backgroundGradient}
         gradientDirection={gradientDirection}
       />
-      <h1 className="absolute top-12 font-bold">
+      <h1 className="absolute top-12 font-bold text-slate-50">
         {collection.gradients[currentIndexBackground].name}
       </h1>
       <div className="flex flex-row w-full justify-between px-10">
