@@ -8,7 +8,7 @@ const GradientGrid = ({ gradients, changeBackground }) => {
           onClick={() => changeBackground(gradient)}
           href="#"
           key={index}
-          className="flex justify-center h-[200px] rounded-lg items-center hover:h-[210px]"
+          className="flex justify-center h-[200px] rounded-lg items-center  transition ease-in-out delay-150  hover:scale-105  duration-300"
           style={{
             background: `linear-gradient(to bottom right, ${gradient.colors.join(
               ", "
